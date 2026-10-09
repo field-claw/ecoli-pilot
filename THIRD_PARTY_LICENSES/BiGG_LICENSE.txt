@@ -1,0 +1,80 @@
+BiGG Models — License and Redistribution Notice
+============================================
+
+The metabolic model redistributed in this repository originates from BiGG Models
+(iML1515 for Escherichia coli str. K-12 substr. MG1655) and is subject to the
+following license, reproduced verbatim from the BiGG Models website
+(http://bigg.ucsd.edu/) and the ModelSEED Database LICENSE file.
+
+------------------------------------------------------------------------
+VERBATIM LICENSE TEXT
+------------------------------------------------------------------------
+
+Copyright (c) The Regents of the University of California. All Rights Reserved.
+
+Permission to use, copy, modify and distribute any part of BiGG Models for
+educational, research and non-profit purposes, without fee, and without a
+written agreement is hereby granted, provided that the above copyright notice,
+this paragraph and the following three paragraphs appear in all copies.
+
+Those desiring to incorporate BiGG Models into commercial products or use for
+commercial purposes should contact the Technology Transfer & Intellectual
+Property Services, University of California, San Diego, 9500 Gilman Drive, Mail
+Code 0910, La Jolla, CA 92093-0910, Ph: (858) 534-5815, FAX: (858) 534-7345,
+e-mail: invent@ucsd.edu.
+
+In no event shall the University of California be liable to any party for
+direct, indirect, special, incidental, or consequential damages, including lost
+profits, arising out of the use of this bigg database, even if the University of
+California has been advised of the possibility of such damage.
+
+The BiGG Models provided herein is on an "as is" basis, and the University of
+California has no obligation to provide maintenance, support, updates,
+enhancements, or modifications.
+
+------------------------------------------------------------------------
+END OF VERBATIM LICENSE TEXT
+------------------------------------------------------------------------
+
+IMPORTANT NOTES
+---------------
+
+1. This is NOT a CC BY license. The BiGG *publication* is CC BY 4.0, but the
+   model FILES carry the proprietary UCSD license above. Do not confuse the two.
+
+2. Commercial use is NOT permitted under this license. Contact
+   invent@ucsd.edu for commercial licensing.
+
+3. Redistribution in a public (e.g. GitHub) repository is permitted for
+   educational, research and non-profit purposes, PROVIDED the full notice
+   above appears in all copies. That is why this file exists and why it must
+   not be removed from the repository.
+
+REQUIRED CITATIONS
+------------------
+BiGG Models database itself:
+  King ZA, Lu JS, Drager A, Miller PC, Federowicz S, Lerman JA, Ebrahim A,
+  Palsson BO, Lewis NE. BiGG Models: A platform for integrating, standardizing,
+  and sharing genome-scale models. Nucleic Acids Research. 2016;44(D1):D515-D522.
+  doi:10.1093/nar/gkv1049
+
+iML1515 (Escherichia coli str. K-12 substr. MG1655):
+  Monk JM, Lloyd CJ, Brunk E, Mih N, Sastry A, King Z, Takeuchi R, Nomura W,
+  Zhang Z, Mori H, Feist AM, Palsson BO. iML1515, a knowledgebase that computes
+  Escherichia coli traits. Nature Biotechnology. 2017;35(10):904-908.
+  doi:10.1038/nbt.3956  (PubMed: 29020004)
+
+Individual model citations take precedence; see each model's own documentation.
+
+------------------------------------------------------------------------
+Provenance of models in this repository
+------------------------------------------------------------------------
+
+data/iML1515.json
+  Source: BiGG Models (bigg.model:iML1515, taxonomy 511145 = Escherichia coli)
+  License: UCSD non-profit license (see above)
+  Original file: eciML1515.json (enzyme-constrained iML1515, enzyme_constraint
+  table present but NOT exercised by the FBA gate — the gate treats it as a
+  standard genome-scale constraint-based model).
+
+Last reviewed: 2026-10-09
